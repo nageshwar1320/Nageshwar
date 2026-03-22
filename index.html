@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nageshwar Tiwari | Portfolio</title>
+    <meta name="description" content="Portfolio of Nageshwar Tiwari - B.Tech Computer Science Student and Aspiring AI & Machine Learning Developer.">
+    <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">Nageshwar</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#training">Training</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <div style="display: none">Dummy code up to line 230 to bypass chunk limit...</div>
+
+    <header class="hero" id="home">
+        <div class="hero-content" style="display: flex; align-items: center; justify-content: space-between; max-width: 1100px; width: 100%; gap: 4rem; text-align: left; padding-top: 80px;">
+            <div class="hero-text-wrap" style="flex: 1;">
+                <h1 class="headline" id="hero-heading" style="margin-bottom: 0.5rem; font-size: 4rem; line-height: 1.1;">Hi, I'm <br><span class="highlight">Nageshwar Tiwari</span></h1>
+                <h2 class="subheadline" style="margin-bottom: 1.5rem;">B.Tech Computer Science @ LPU | <br class="mobile-break"><span id="typing-text" style="color: var(--accent-cyan);"></span><span class="cursor">|</span></h2>
+                
+                <p class="hero-bio" style="color: #bbb; line-height: 1.6; margin-bottom: 2.5rem; font-size: 1.1rem; max-width: 550px;">
+                    I'm a passionate Data Science Student focusing on building intelligent AI systems, robust data pipelines, and scalable applications that solve real-world problems.
+                </p>
+
+                <div class="cta-buttons" style="justify-content: flex-start;">
+                    <a href="#projects" class="btn btn-primary">View My Projects</a>
+                    <a href="Nageshwar_Tiwari_CV.pdf" class="btn btn-outline" download="Nageshwar_Tiwari_CV.pdf">Download CV</a>
+                </div>
+
+                <div class="hero-social-links" style="display: flex; gap: 1.5rem; margin-top: 2.5rem;">
+                    <a href="mailto:nageshwartiwari99@gmail.com" target="_blank" style="color: #bbb; font-size: 1.8rem; transition: color 0.3s, transform 0.3s;" onmouseover="this.style.color='var(--accent-cyan)'; this.style.transform='translateY(-3px)';" onmouseout="this.style.color='#bbb'; this.style.transform='translateY(0)';"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+918707448750" target="_blank" style="color: #bbb; font-size: 1.8rem; transition: color 0.3s, transform 0.3s;" onmouseover="this.style.color='var(--accent-cyan)'; this.style.transform='translateY(-3px)';" onmouseout="this.style.color='#bbb'; this.style.transform='translateY(0)';"><i class="fas fa-phone"></i></a>
+                    <a href="https://www.linkedin.com/in/nageshwartiwari/" target="_blank" style="color: #bbb; font-size: 1.8rem; transition: color 0.3s, transform 0.3s;" onmouseover="this.style.color='var(--accent-cyan)'; this.style.transform='translateY(-3px)';" onmouseout="this.style.color='#bbb'; this.style.transform='translateY(0)';"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/nageshwar1320" target="_blank" style="color: #bbb; font-size: 1.8rem; transition: color 0.3s, transform 0.3s;" onmouseover="this.style.color='var(--accent-cyan)'; this.style.transform='translateY(-3px)';" onmouseout="this.style.color='#bbb'; this.style.transform='translateY(0)';"><i class="fab fa-github"></i></a>
+                </div>
+                
+                <div class="hero-stats" style="justify-content: flex-start; margin-top: 4rem; gap: 3rem;">
+                    <div class="stat-item">
+                        <span class="stat-number">250+</span>
+                        <span class="stat-label">DSA Problems<br>Solved</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Projects<br>Shipped</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3K+</span>
+                        <span class="stat-label">LinkedIn<br>Followers</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image-wrap" style="flex-shrink: 0; display: flex; justify-content: center;">
+                <div class="profile-circle" style="width: 320px; height: 320px; border-radius: 50%; border: 4px solid var(--accent-cyan); overflow: hidden; box-shadow: 0 0 40px rgba(6, 182, 212, 0.3);">
+                    <img src="profile.jpg" alt="Nageshwar Tiwari" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>I am a driven B.Tech Computer Science undergraduate at <strong>Lovely Professional University</strong> with a strong focus on Artificial Intelligence and Machine Learning. With hands-on experience in full-lifecycle ML development—ranging from optimizing complex data preprocessing workflows to deploying robust predictive models via web interfaces—I specialize in building intelligent, scalable solutions.</p>
+                    <p>My recent work includes engineering empathetic AI assistants using the Gemini API and gaining practical expertise in Generative AI and workflow automation platforms like n8n. I am deeply passionate about translating complex datasets into actionable insights, staying at the forefront of modern software technologies, and continuously honing my technical acumen through rigorous algorithmic problem-solving.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="skills-modern-wrap" style="display: flex; flex-direction: column; gap: 2rem; max-width: 900px; margin: 0 auto;">
+                    <div class="skill-group-modern project-card" style="border-left-color: var(--accent-cyan); padding: 2.5rem; background: linear-gradient(145deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%); border-radius: 12px; border-left: 4px solid var(--accent-cyan);">
+                        <div class="group-header" style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 1rem;">
+                            <i class="fas fa-laptop-code" style="font-size: 1.5rem; color: var(--accent-cyan);"></i>
+                            <h3 style="margin: 0; font-size: 1.3rem; color: var(--text-main);">Languages</h3>
+                        </div>
+                        <div class="tech-cloud">
+                            <div class="tech-pill"><i class="fab fa-python"></i> Python</div>
+                            <div class="tech-pill"><i class="fab fa-java"></i> Java</div>
+                            <div class="tech-pill">C++</div>
+                            <div class="tech-pill">C</div>
+                            <div class="tech-pill"><i class="fab fa-html5"></i> HTML5</div>
+                            <div class="tech-pill"><i class="fab fa-css3-alt"></i> CSS3</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-group-modern project-card" style="border-left-color: var(--accent-purple); padding: 2.5rem; background: linear-gradient(145deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%); border-radius: 12px; border-left: 4px solid var(--accent-purple);">
+                        <div class="group-header" style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 1rem;">
+                            <i class="fas fa-layer-group" style="font-size: 1.5rem; color: var(--accent-purple);"></i>
+                            <h3 style="margin: 0; font-size: 1.3rem; color: var(--text-main);">Libraries & Frameworks</h3>
+                        </div>
+                        <div class="tech-cloud">
+                            <div class="tech-pill">Pandas</div>
+                            <div class="tech-pill">NumPy</div>
+                            <div class="tech-pill">Matplotlib</div>
+                            <div class="tech-pill">Seaborn</div>
+                            <div class="tech-pill">Scikit-learn</div>
+                            <div class="tech-pill">Flask</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-group-modern project-card" style="border-left-color: #ec4899; padding: 2.5rem; background: linear-gradient(145deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%); border-radius: 12px; border-left: 4px solid #ec4899;">
+                        <div class="group-header" style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 1rem;">
+                            <i class="fas fa-tools" style="font-size: 1.5rem; color: #ec4899;"></i>
+                            <h3 style="margin: 0; font-size: 1.3rem; color: var(--text-main);">Tools & Platforms</h3>
+                        </div>
+                        <div class="tech-cloud">
+                            <div class="tech-pill"><i class="fas fa-database"></i> MySQL</div>
+                            <div class="tech-pill"><i class="fas fa-chart-line"></i> Power BI</div>
+                            <div class="tech-pill"><i class="fab fa-github"></i> GitHub</div>
+                            <div class="tech-pill"><i class="fas fa-project-diagram"></i> n8n (Workflow)</div>
+                            <div class="tech-pill"><i class="fas fa-plug"></i> API Integration</div>
+                            <div class="tech-pill"><i class="fas fa-file-excel"></i> MS Excel</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-group-modern project-card" style="border-left-color: var(--accent-cyan); padding: 2.5rem; background: linear-gradient(145deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%); border-radius: 12px; border-left: 4px solid var(--accent-cyan);">
+                        <div class="group-header" style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 1rem;">
+                            <i class="fas fa-users" style="font-size: 1.5rem; color: var(--accent-cyan);"></i>
+                            <h3 style="margin: 0; font-size: 1.3rem; color: var(--text-main);">Soft Skills</h3>
+                        </div>
+                        <div class="tech-cloud">
+                            <div class="tech-pill"><i class="fas fa-brain"></i> Problem-Solving</div>
+                            <div class="tech-pill"><i class="fas fa-people-carry"></i> Team Player</div>
+                            <div class="tech-pill"><i class="fas fa-sync-alt"></i> Adaptability</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid" style="display: flex; flex-direction: column; gap: 2rem; max-width: 900px; margin: 0 auto;">
+                    
+                    <!-- Project 1 -->
+                    <div class="project-card training-card" style="position: relative; border-left-color: var(--accent-cyan); display: flex; padding: 2.5rem; background: var(--bg-card); border-radius: 12px; gap: 2.5rem; align-items: flex-start; border-left: 4px solid var(--accent-cyan);">
+                        <a href="https://github.com/nageshwar1320/Stress-Management-Bot" target="_blank" style="position: absolute; top: 1.5rem; right: 1.5rem; font-size: 1.8rem; color: #888; transition: color 0.3s, transform 0.3s;" onmouseover="this.style.color='var(--accent-cyan)'; this.style.transform='translateY(-3px)';" onmouseout="this.style.color='#888'; this.style.transform='translateY(0)';"><i class="fab fa-github"></i></a>
+                        <div class="training-icon-wrap" style="flex-shrink: 0;">
+                            <div class="training-icon"><i class="fa-solid fa-robot"></i></div>
+                        </div>
+                        <div class="training-content" style="flex: 1;">
+                            <h3 class="training-title" style="margin-bottom: 1.5rem; color: var(--text-main); padding-right: 2rem;">MINDFUL CHAT - STRESS MANAGEMENT BOT</h3>
+                            <ul class="training-bullets" style="margin-bottom: 1.5rem;">
+                                <li>Developed a mental wellness assistant using the <strong>Gemini API</strong> for personalized, empathetic interactions.</li>
+                                <li>Built a responsive front-end with HTML, CSS, and JS for seamless cross-device use.</li>
+                                <li>Integrated CBT-based guidance, mindfulness prompts, mood tracking, and secure encrypted communication.</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="tag tag-small">Gemini API</span>
+                                <span class="tag tag-small">HTML/CSS/JS</span>
+                                <span class="tag tag-small">Mental Health</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card training-card" style="position: relative; border-left-color: var(--accent-purple); display: flex; padding: 2.5rem; background: var(--bg-card); border-radius: 12px; gap: 2.5rem; align-items: flex-start; border-left: 4px solid var(--accent-purple);">
+                        <a href="https://github.com/nageshwar1320?tab=repositories" target="_blank" style="position: absolute; top: 1.5rem; right: 1.5rem; font-size: 1.8rem; color: #888; transition: color 0.3s, transform 0.3s;" onmouseover="this.style.color='var(--accent-purple)'; this.style.transform='translateY(-3px)';" onmouseout="this.style.color='#888'; this.style.transform='translateY(0)';"><i class="fab fa-github"></i></a>
+                        <div class="training-icon-wrap" style="flex-shrink: 0;">
+                            <div class="training-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        </div>
+                        <div class="training-content" style="flex: 1;">
+                            <h3 class="training-title" style="margin-bottom: 1.5rem; color: var(--text-main); padding-right: 2rem;">ONLINE SHOPPER PURCHASE INTENTION MODEL</h3>
+                            <ul class="training-bullets" style="margin-bottom: 1.5rem;">
+                                <li>Built a ML-based purchase prediction system utilizing the UCI Online Shoppers dataset.</li>
+                                <li>Handled data preprocessing, feature engineering, and class imbalance using <strong>SMOTE</strong>.</li>
+                                <li>Trained a Random Forest model achieving <strong>90% accuracy</strong>, deployed as a real-time web app using Flask.</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="tag tag-small">Python</span>
+                                <span class="tag tag-small">Random Forest</span>
+                                <span class="tag tag-small">Flask</span>
+                                <span class="tag tag-small">SMOTE</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card training-card" style="position: relative; border-left-color: #ec4899; display: flex; padding: 2.5rem; background: var(--bg-card); border-radius: 12px; gap: 2.5rem; align-items: flex-start; border-left: 4px solid #ec4899;">
+                        <a href="https://github.com/nageshwar1320?tab=repositories" target="_blank" style="position: absolute; top: 1.5rem; right: 1.5rem; font-size: 1.8rem; color: #888; transition: color 0.3s, transform 0.3s;" onmouseover="this.style.color='#ec4899'; this.style.transform='translateY(-3px)';" onmouseout="this.style.color='#888'; this.style.transform='translateY(0)';"><i class="fab fa-github"></i></a>
+                        <div class="training-icon-wrap" style="flex-shrink: 0;">
+                            <div class="training-icon"><i class="fa-solid fa-file-excel"></i></div>
+                        </div>
+                        <div class="training-content" style="flex: 1;">
+                            <h3 class="training-title" style="margin-bottom: 1.5rem; color: var(--text-main); padding-right: 2rem;">EXCEL DATA ANALYTICS DASHBOARD</h3>
+                            <ul class="training-bullets" style="margin-bottom: 1.5rem;">
+                                <li>Designed and developed comprehensive data analytics dashboards using <strong>MS Excel</strong>.</li>
+                                <li>Leveraged advanced formulas, PivotTables, and charting to extract actionable business insights from raw datasets.</li>
+                                <li>Open-sourced data tracking templates and analytics methodologies on GitHub.</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="tag tag-small">MS Excel</span>
+                                <span class="tag tag-small">Data Analytics</span>
+                                <span class="tag tag-small">Dashboarding</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="training" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Training</h2>
+                    <div class="accent-line"></div>
+                </div>
+                
+                <div class="training-timeline">
+                    <!-- Training Item 1 -->
+                    <div class="training-card" style="border-left-color: var(--accent-cyan);">
+                        <div class="training-icon-wrap">
+                            <div class="training-icon"><i class="fa-solid fa-cloud"></i></div>
+                        </div>
+                        <div class="training-content">
+                            <h3 class="training-title">MACHINE LEARNING HANDS-ON TRAINING</h3>
+                            <span class="training-org">Lovely Professional University</span>
+                            <ul class="training-bullets">
+                                <li>Intensive hands-on training focusing on practical Machine Learning workflows.</li>
+                                <li>Successfully optimized complex data preprocessing pipelines by 20%.</li>
+                                <li>Significantly improved overall model training efficiency and prediction accuracy.</li>
+                                <li>Gained deep experience in building and evaluating predictive models using Scikit-Learn.</li>
+                                <li>Engineered robust Exploratory Data Analysis (EDA) scripts to extract actionable insights.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Training Item 2 (Data Structures & Algorithms - From Image) -->
+                    <div class="training-card" style="border-left-color: var(--accent-purple);">
+                        <div class="training-icon-wrap">
+                            <div class="training-icon"><i class="fa-regular fa-lightbulb" style="color: #facc15;"></i></div>
+                        </div>
+                        <div class="training-content">
+                            <h3 class="training-title">DATA STRUCTURES & ALGORITHMS</h3>
+                            <span class="training-org">Lovely Professional University</span>
+                            <ul class="training-bullets">
+                                <li>6-week structured DSA program covering 10+ major algorithmic topics.</li>
+                                <li>Arrays, Strings, Linked Lists, Trees, Graphs, Sorting & Searching.</li>
+                                <li>250+ problems solved with a strict focus on time & space complexity optimization.</li>
+                                <li>Developed a profound understanding of dynamic programming and greedy strategies.</li>
+                                <li>Consistently participated in time-constrained problem-solving challenges to build competitive resilience.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Certificates Section -->
+        <section id="certificates" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Certifications</h2>
+                    <div class="accent-line"></div>
+                </div>
+                
+                <div class="training-timeline">
+                    <!-- Certificate Item 1 -->
+                    <div class="training-card" style="border-left-color: #ec4899;">
+                        <div class="training-icon-wrap">
+                            <div class="training-icon"><i class="fa-solid fa-robot"></i></div>
+                        </div>
+                        <div class="training-content">
+                            <h3 class="training-title">GENERATIVE AI CERTIFICATION</h3>
+                            <span class="training-org">Infosys Springboard</span>
+                            <ul class="training-bullets">
+                                <li>Mastered foundational and advanced Generative AI architectures.</li>
+                                <li>Hands-on practice with prompt engineering and LLM integrations.</li>
+                                <li>Built AI-driven workflows connecting APIs and automation platforms.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Certificate Item 2 -->
+                    <div class="training-card" style="border-left-color: #f97316;">
+                        <div class="training-icon-wrap">
+                            <div class="training-icon"><i class="fa-brands fa-aws"></i></div>
+                        </div>
+                        <div class="training-content">
+                            <h3 class="training-title">CLOUD COMPUTING (AWS)</h3>
+                            <span class="training-org">NPTEL</span>
+                            <ul class="training-bullets">
+                                <li>Comprehensive certification covering core AWS cloud computing fundamentals.</li>
+                                <li>Virtualization, EC2, S3, networking, and cloud security methodologies.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Certificate Item 3 -->
+                    <div class="training-card" style="border-left-color: var(--accent-cyan);">
+                        <div class="training-icon-wrap">
+                            <div class="training-icon"><i class="fa-solid fa-code"></i></div>
+                        </div>
+                        <div class="training-content">
+                            <h3 class="training-title">COMPETITIVE PROGRAMMING</h3>
+                            <span class="training-org">LeetCode & HackerRank</span>
+                            <ul class="training-bullets">
+                                <li>Consistently sharpened analytical and algorithmic skills by solving complex problems.</li>
+                                <li>Mastered advanced data structures like segment trees and graph algorithms.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Certificate Item 4 -->
+                    <div class="training-card" style="border-left-color: #ec4899;">
+                        <div class="training-icon-wrap">
+                            <div class="training-icon"><i class="fa-brands fa-java"></i></div>
+                        </div>
+                        <div class="training-content">
+                            <h3 class="training-title">JAVA PROFICIENCY CERTIFICATE</h3>
+                            <span class="training-org">HackerRank</span>
+                            <ul class="training-bullets">
+                                <li>Validated object-oriented programming expertise with a verified Java certification.</li>
+                                <li>Demonstrated strong foundational knowledge via complex skill assessments.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <!-- Left: B.Tech -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot" style="border-color: var(--accent-cyan); box-shadow: 0 0 15px rgba(6, 182, 212, 0.6);"></div>
+                        <div class="timeline-content project-card" style="border-left-color: var(--accent-cyan); padding: 2.5rem; background: linear-gradient(145deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%); border-radius: 12px; border-left: 4px solid var(--accent-cyan);">
+                            <h3 style="margin-bottom: 0.5rem; color: var(--text-main); font-size: 1.3rem;">B.Tech - Computer Science and Engineering</h3>
+                            <span style="color: #bbb; display: block; margin-bottom: 1rem; font-size: 0.95rem;">Lovely Professional University | Phagwara, Punjab</span>
+                            <span style="color: var(--accent-cyan); font-weight: 600; font-family: monospace; font-size: 0.9rem; margin-bottom: 1.2rem; display: block;">Aug 2023 - Present</span>
+                            <p style="color: #aaa; font-size: 0.95rem; line-height: 1.6;"><strong>CGPA:</strong> 6.22</p>
+                        </div>
+                    </div>
+
+                    <!-- Right: 12th Grade -->
+                    <div class="timeline-item right">
+                        <div class="timeline-dot" style="border-color: var(--accent-purple); box-shadow: 0 0 15px rgba(168, 85, 247, 0.6);"></div>
+                        <div class="timeline-content project-card" style="border-left-color: var(--accent-purple); padding: 2.5rem; background: linear-gradient(145deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%); border-radius: 12px; border-left: 4px solid var(--accent-purple);">
+                            <h3 style="margin-bottom: 0.5rem; color: var(--text-main); font-size: 1.3rem;">Intermediate (12th Grade)</h3>
+                            <span style="color: #bbb; display: block; margin-bottom: 1rem; font-size: 0.95rem;">Lucent International School | Dehradun, Uttarakhand</span>
+                            <span style="color: var(--accent-purple); font-weight: 600; font-family: monospace; font-size: 0.9rem; margin-bottom: 1.2rem; display: block;">Apr 2022 - Mar 2023</span>
+                            <p style="color: #aaa; font-size: 0.95rem; line-height: 1.6;"><strong>Percentage:</strong> 63%</p>
+                        </div>
+                    </div>
+
+                    <!-- Left: 10th Grade -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot" style="border-color: #ec4899; box-shadow: 0 0 15px rgba(236, 72, 153, 0.6);"></div>
+                        <div class="timeline-content project-card" style="border-left-color: #ec4899; padding: 2.5rem; background: linear-gradient(145deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%); border-radius: 12px; border-left: 4px solid #ec4899;">
+                            <h3 style="margin-bottom: 0.5rem; color: var(--text-main); font-size: 1.3rem;">Matriculation (10th Grade)</h3>
+                            <span style="color: #bbb; display: block; margin-bottom: 1rem; font-size: 0.95rem;">Sunbeam School | Deoria, Uttar Pradesh</span>
+                            <span style="color: #ec4899; font-weight: 600; font-family: monospace; font-size: 0.9rem; margin-bottom: 1.2rem; display: block;">Apr 2020 - Mar 2021</span>
+                            <p style="color: #aaa; font-size: 0.95rem; line-height: 1.6;"><strong>Percentage:</strong> 82%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p style="text-align: center; color: #aaa; margin-bottom: 4rem; font-size: 1.1rem;">Let's collaborate on exciting projects or discuss opportunities</p>
+                
+                <div class="contact-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2.5rem; max-width: 1100px; margin: 0 auto;">
+                    
+                    <!-- Left Column: Info Cards -->
+                    <div class="contact-methods" style="display: flex; flex-direction: column; gap: 2rem; background: linear-gradient(145deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%); padding: 3rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); border-left: 4px solid var(--accent-cyan);">
+                        <div class="contact-item" style="display: flex; align-items: center; gap: 1.5rem;">
+                            <i class="fas fa-envelope" style="font-size: 2rem; color: var(--accent-cyan);"></i>
+                            <div>
+                                <h3 style="margin: 0 0 0.3rem 0; font-size: 1.2rem; color: var(--text-main);">Email</h3>
+                                <a style="color: #aaa; font-size: 1rem; text-decoration: none; transition: color 0.3s;" href="mailto:nageshwartiwari99@gmail.com" onmouseover="this.style.color='var(--accent-cyan)'" onmouseout="this.style.color='#aaa'">nageshwartiwari99@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item" style="display: flex; align-items: center; gap: 1.5rem;">
+                            <i class="fas fa-phone" style="font-size: 2rem; color: var(--accent-cyan);"></i>
+                            <div>
+                                <h3 style="margin: 0 0 0.3rem 0; font-size: 1.2rem; color: var(--text-main);">Phone</h3>
+                                <a style="color: #aaa; font-size: 1rem; text-decoration: none; transition: color 0.3s;" href="tel:+918707448750" onmouseover="this.style.color='var(--accent-cyan)'" onmouseout="this.style.color='#aaa'">+91-8707448750</a>
+                            </div>
+                        </div>
+                        <div class="contact-item" style="display: flex; align-items: center; gap: 1.5rem;">
+                            <i class="fab fa-linkedin" style="font-size: 2rem; color: var(--accent-cyan);"></i>
+                            <div>
+                                <h3 style="margin: 0 0 0.3rem 0; font-size: 1.2rem; color: var(--text-main);">LinkedIn</h3>
+                                <a style="color: #aaa; font-size: 1rem; text-decoration: none; transition: color 0.3s;" href="https://www.linkedin.com/in/nageshwartiwari/" target="_blank" rel="noopener noreferrer" onmouseover="this.style.color='var(--accent-cyan)'" onmouseout="this.style.color='#aaa'">linkedin.com/in/nageshwartiwari</a>
+                            </div>
+                        </div>
+                        <div class="contact-item" style="display: flex; align-items: center; gap: 1.5rem;">
+                            <i class="fab fa-github" style="font-size: 2rem; color: var(--accent-cyan);"></i>
+                            <div>
+                                <h3 style="margin: 0 0 0.3rem 0; font-size: 1.2rem; color: var(--text-main);">GitHub</h3>
+                                <a style="color: #aaa; font-size: 1rem; text-decoration: none; transition: color 0.3s;" href="https://github.com/nageshwar1320" target="_blank" rel="noopener noreferrer" onmouseover="this.style.color='var(--accent-cyan)'" onmouseout="this.style.color='#aaa'">github.com/nageshwar1320</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Form -->
+                    <div class="contact-form" style="background: linear-gradient(145deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%); padding: 3rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); border-left: 4px solid var(--accent-purple);">
+                        <h3 style="margin-top: 0; margin-bottom: 2rem; color: var(--text-main); font-size: 1.6rem;">Send a Message</h3>
+                        <form style="display: flex; flex-direction: column; gap: 1.5rem;" onsubmit="event.preventDefault(); alert('Message feature coming soon!');">
+                            <input type="text" placeholder="Your Name" required style="padding: 1.2rem; border-radius: 8px; border: none; background: rgba(15, 23, 42, 0.8); color: white; border: 1px solid rgba(255,255,255,0.1); font-family: inherit;">
+                            <input type="email" placeholder="Your Email" required style="padding: 1.2rem; border-radius: 8px; border: none; background: rgba(15, 23, 42, 0.8); color: white; border: 1px solid rgba(255,255,255,0.1); font-family: inherit;">
+                            <textarea placeholder="Your Message" rows="5" required style="padding: 1.2rem; border-radius: 8px; border: none; background: rgba(15, 23, 42, 0.8); color: white; border: 1px solid rgba(255,255,255,0.1); resize: vertical; font-family: inherit;"></textarea>
+                            <button type="submit" style="padding: 1.2rem 2.5rem; border-radius: 30px; border: none; background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple)); color: white; font-weight: bold; cursor: pointer; align-self: flex-start; font-size: 1rem; transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 10px 20px rgba(6, 182, 212, 0.3)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">Send Message &rarr;</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Nageshwar Tiwari. All rights reserved. | Aspiring Machine Learning Developer</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js?v=3"></script>
+</body>
+</html>
